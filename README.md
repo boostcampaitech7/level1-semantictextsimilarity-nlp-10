@@ -11,6 +11,8 @@
 
 <br>
 
+## 2. 프로젝트 구성
+
 ### ⏰ 개발 기간
 - 2024년 09월 10일(화) 10:00 ~ 2024년 09월 26일(목) 19:00
 - 부스트캠프 AI Tech NLP 트랙 6-7주차
@@ -41,6 +43,12 @@
 <br>
 
 ### 🎈 결과 모델 Specification
+
+|      | Pearson (Public) | Pearson (Private) | 사용 기법 | Loss | Model | Epoch | Learning Rate |
+|------|------------------|-------------------|-------------|------|-------------|-------|---------------|
+| 1    | 0.9331           | 0.9372            | Ensemble    | MSE  | upskyy/bge-m3-korean, klue/roberta-large, beomi/KcELECTRA-base-v2022 | 3     | 2e-5 (첫 10% 동안 warmup 후 선형 감소) |
+| 2    | 0.9315           | 0.9352            | Ensemble    | MSE  | snunlp/KR-ELECTRA-discriminator, beomi/KcELECTRA-base-v2022, monologg/koelectra-base-v3-discriminator | 12    | 2e-5            |
+
 - Pearson(Public) : 0.9315
 - Pearson(Private) : 0.9352
 - 앙상블에 활용한 모델
@@ -52,7 +60,7 @@
 
 ---
 
-## 2. Team
+## 3. Team
 <table>
     <tbody>
         <tr>
