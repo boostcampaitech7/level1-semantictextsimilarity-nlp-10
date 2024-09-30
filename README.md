@@ -105,3 +105,18 @@
 
 
 ## Reference
+모델 앙상블을 위해 사용했던 HuggingFace 모델들
+1. Alibaba-NLP/gte-multilingual-base (https://huggingface.co/Alibaba-NLP/gte-multilingual-base)
+2. beomi/KcELECTRA-base-v2022 (https://huggingface.co/beomi/KcELECTRA-base-v2022)
+3. jhgan/ko-sroberta-multitask (https://huggingface.co/jhgan/ko-sroberta-multitask)
+4. klue/bert-base (https://huggingface.co/klue/bert-base)
+5. klue/roberta-small (https://huggingface.co/klue/roberta-small)
+6. klue/roberta-base (https://huggingface.co/klue/roberta-base)
+7. klue/roberta-large (https://huggingface.co/klue/roberta-large)
+8. kykim/bert-kor-base (https://huggingface.co/kykim/bert-kor-base)
+9. monologg/koelectra-base-v3-discriminator (https://huggingface.co/monologg/koelectra-base-v3-discriminator)
+10. sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 (https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)
+11. snunlp/KR-SBERT-Medium-extended-klueNLItriplet_PARpair_QApair-klueSTS (https://huggingface.co/snunlp/KR-SBERT-Medium-extended-klueNLItriplet_PARpair_QApair-klueSTS)
+12. snunlp/KR-SBERT-Medium-klueNLItriplet_PARpair-klueSTS (https://huggingface.co/snunlp/KR-SBERT-Medium-klueNLItriplet_PARpair-klueSTS)
+13. upskyy/bge-m3-korean (https://huggingface.co/upskyy/bge-m3-korean)
+
